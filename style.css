@@ -1,0 +1,78 @@
+@font-face {
+  font-family: "AG-Regular";
+  src: url("AG-Regular.woff");
+}
+
+/* Colors and Fonts */
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+h1{
+  font-family: "AG-Regular", sans-serif;
+  color: rgb(20,20,20);
+  line-height: 1em;
+  font-weight: normal;
+  font-size: 6.5vw;
+  letter-spacing: -0.05em;
+  margin: 0;
+}
+.card h1:hover {
+  font-style: italic;
+}
+
+html{
+  background-color: rgb(235,235,235)
+}
+.wrapper {
+  width: 95%;
+  margin: 0 auto;
+  padding-top: 3%;
+}
+.container{
+  width: 100%;
+  margin: 0 auto;
+}
+.card{
+  border-bottom: 0.5vw solid black;
+}
+.empty {
+  padding-top: 7%;
+}
+.justify {
+  text-align-last: justify;
+}
+.right {
+  text-align: right;
+}
+
+/*.defile-parent {
+  display: block;
+  margin: 3em auto;
+  overflow: hidden;
+  position: relative;
+  table-layout: fixed;
+  width: 100%;
+}
+.defile {
+  display:block;
+  animation:linear marqueelike 20s infinite ;
+  margin-left:-100%;
+  padding:0 5px;
+  text-align:left;
+  height:25px;
+}
+@-webkit-keyframes marqueelike {
+  0%, 100% {margin-left:0;}
+  99.99% {margin-left:-100%;}
+ }
+ .defile:after {
+  content:attr(data-text);
+  position:absolute;
+  white-space:nowrap;
+  padding-left:10px;
+}*/
