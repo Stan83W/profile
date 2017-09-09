@@ -3,11 +3,13 @@
   src: url("AG-Regular.woff");
 }
 @font-face {
-  font-family: "AGI";
-  src: url("AGI.otf");
+  font-family: "neue";
+  src: url("neue.woff");
 }
-/* Colors and Fonts */
-
+@font-face {
+  font-family: "neueit";
+  src: url("neueit.woff");
+}
 body{
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
@@ -19,7 +21,7 @@ a {
 }
 h1{
   font-family: "AG-Regular", sans-serif;
-  color: white;
+  color: black;
   line-height: 1em;
   font-weight: normal;
   font-size: 6.5vw;
@@ -34,7 +36,7 @@ h1{
 }
 
 html{
-  background-color: black;
+  background-color: rgb(240,240,240);
 }
 .wrapper {
   width: 95%;
@@ -46,7 +48,7 @@ html{
   margin: 0 auto;
 }
 .row{
-  border-bottom: 0.5vw solid white;
+  border-bottom: 0.5vw solid black;
 }
 .empty {
   padding-top: 7%;
