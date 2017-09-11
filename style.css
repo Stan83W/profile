@@ -21,6 +21,7 @@ body{
 }
 a {
   text-decoration: none;
+  text-align-last: justify;
 }
 h1{
   font-family: "AG-Regular", sans-serif;
@@ -28,7 +29,6 @@ h1{
   line-height: 1em;
   font-weight: normal;
   font-size: 6.5vw;
-  letter-spacing: -0.05em;
   margin: 0;
   text-transform: uppercase;
 }
@@ -36,7 +36,7 @@ h1{
   border-bottom: 0.5vw solid black;
 }
 .row h1:hover {
-  font-style: italic;
+/*  font-style: italic;*/
   cursor: pointer; 
   cursor: hand;
 }
@@ -44,7 +44,7 @@ h1{
 .wrapper {
   width: 95%;
   margin: 0 auto;
-  padding-top: 3%;
+  padding-top: 1.5%;
 }
 .container{
   width: 100%;
@@ -59,7 +59,6 @@ h1{
 .right {
   text-align: right;
 }
-
 .marquee {
   width: 100%;
   overflow: hidden;
