@@ -11,7 +11,7 @@
   src: url("neueit.woff");
 }
 html{
-  background-color: rgb(240,240,240);
+  background-color: white;
 }
 body{
   font-family: 'Open Sans', sans-serif;
@@ -21,11 +21,10 @@ body{
 }
 a {
   text-decoration: none;
-  text-align-last: justify;
 }
 h1{
   font-family: "AG-Regular", sans-serif;
-  color: black;
+  color: rgb(100,100,100);
   line-height: 1em;
   font-weight: normal;
   font-size: 6.5vw;
@@ -33,18 +32,47 @@ h1{
   text-transform: uppercase;
 }
 .row{
-  border-bottom: 0.5vw solid black;
+  border-bottom: 0.5vw solid rgb(100,100,100);
 }
-.row h1:hover {
-/*  font-style: italic;*/
+.row:hover {
   cursor: pointer; 
   cursor: hand;
+  color: black;
+  border-color: black;
 }
-
+.title {
+  border-top: 0.5vw solid rgb(100,100,100);
+}
+.title:hover {
+  border-color: black;
+  z-index: 200;
+  position: relative;
+}
+.subtitle {
+  border-top: 0.5vw solid rgb(100,100,100);
+  margin-top: -0.5vw;
+  z-index: 100;
+  position: relative;
+}
+.title:hover {
+  border-color: black;
+}
+.last {
+  border-top: 0.5vw solid rgb(100,100,100);
+  margin-top: -0.5vw;
+}
+.last:hover {
+  z-index: 300;
+  position: relative;
+}
+#translate:hover {
+  display: block;
+  transform: translateX(0.45em);
+}
 .wrapper {
   width: 95%;
   margin: 0 auto;
-  padding-top: 1.5%;
+  padding-top: 2.5%;
 }
 .container{
   width: 100%;
@@ -57,7 +85,7 @@ h1{
   text-align-last: justify;
 }
 .right {
-  text-align: right;
+  float: right;
 }
 .marquee {
   width: 100%;
