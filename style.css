@@ -13,12 +13,6 @@
 html{
   background-color: white;
 }
-body{
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-  font-size: 15px;
-  line-height: 1.6em;
-}
 a {
   text-decoration: none;
 }
@@ -65,14 +59,11 @@ h1{
   z-index: 300;
   position: relative;
 }
-#translate:hover {
-  display: block;
-  transform: translateX(0.45em);
-}
 .wrapper {
   width: 95%;
   margin: 0 auto;
   padding-top: 2.5%;
+  padding-bottom: 2.5%;
 }
 .container{
   width: 100%;
@@ -97,4 +88,26 @@ h1{
   padding: 0;
   overflow:visible;
   white-space:nowrap;
+}
+#translate:hover {
+  display: block;
+  transition: all 0.3s ease;
+  transform: translateX(0.95em);
+}
+#shrink:hover {
+  width: 355%;
+  transition: all 0.3s ease;
+  transform: scale(0.8);
+}
+
+
+@keyframes rotate {
+  0% { transform: rotate(0deg) }
+  33% { transform: rotate(0deg) }
+  66% { transform: rotate(360deg) }
+  100% { transform: rotate(360deg) }
+}
+.rotation:hover {
+  width: 40%;
+  animation: rotate 1s infinite;
 }
