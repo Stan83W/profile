@@ -120,8 +120,9 @@ h1{
 }
 .hidden {
   visibility:hidden;
+  margin-bottom: 0.5vw;
 }
-.title:hover .hidden {
+.row:hover .hidden {
   transition: all 0.3s ease;
   visibility:visible;
 }
