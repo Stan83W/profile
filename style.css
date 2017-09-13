@@ -18,7 +18,7 @@ a {
 }
 h1{
   font-family: "AG-Regular", sans-serif;
-  color: rgb(100,100,100);
+  color: black;
   line-height: 1em;
   font-weight: normal;
   font-size: 6.5vw;
@@ -26,19 +26,19 @@ h1{
   text-transform: uppercase;
 }
 .row{
-  border-bottom: 0.5vw solid rgb(100,100,100);
+  border-bottom: 0.5vw solid black;
 }
 .row:hover {
   cursor: pointer; 
   cursor: hand;
-  color: black;
-  border-color: black;
+/*  color: rgb(100,100,100);
+  border-color: rgb(100,100,100);*/
 }
 .title {
-  border-top: 0.5vw solid rgb(100,100,100);
+  border-top: 0.5vw solid black;
 }
-.title:hover {
-  border-color: black;
+/*.title:hover {
+  border-color: rgb(100,100,100);
   z-index: 200;
   position: relative;
 }
@@ -48,20 +48,19 @@ h1{
 }
 .subtitle:hover {
   margin-top: -0.5vw;
-  border-top: 0.5vw solid black;
-
+  border-top: 0.5vw solid rgb(100,100,100);
 }
 .title:hover {
-  border-color: black;
+  border-color: rgb(100,100,100);
 }
 .last {
-  border-top: 0.5vw solid rgb(100,100,100);
+  border-top: 0.5vw solid black;
   margin-top: -0.5vw;
 }
 .last:hover {
   z-index: 300;
   position: relative;
-}
+}*/
 .wrapper {
   width: 95%;
   margin: 0 auto;
@@ -118,4 +117,11 @@ h1{
 }
 .blink-text:hover {
   animation: blink 1s linear infinite;
+}
+.hidden {
+  visibility:hidden;
+}
+.title:hover .hidden {
+  transition: all 0.3s ease;
+  visibility:visible;
 }
