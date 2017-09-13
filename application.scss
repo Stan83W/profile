@@ -1,15 +1,10 @@
+@import "components/horizontal-slider";
+
 @font-face {
   font-family: "AG-Regular";
   src: url("AG-Regular.woff");
 }
-@font-face {
-  font-family: "neue";
-  src: url("neue.woff");
-}
-@font-face {
-  font-family: "neueit";
-  src: url("neueit.woff");
-}
+
 html{
   background-color: white;
 }
