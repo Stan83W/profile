@@ -1,13 +1,8 @@
-@import "components/horizontal-slider";
-
 @font-face {
   font-family: "AG-Regular";
   src: url("AG-Regular.woff");
 }
 
-html{
-  background-color: white;
-}
 a {
   text-decoration: none;
 }
@@ -26,36 +21,10 @@ h1{
 .row:hover {
   cursor: pointer; 
   cursor: hand;
-/*  color: rgb(100,100,100);
-  border-color: rgb(100,100,100);*/
 }
 .title {
   border-top: 0.5vw solid black;
 }
-/*.title:hover {
-  border-color: rgb(100,100,100);
-  z-index: 200;
-  position: relative;
-}
-.subtitle {
-  z-index: 100;
-  position: relative;
-}
-.subtitle:hover {
-  margin-top: -0.5vw;
-  border-top: 0.5vw solid rgb(100,100,100);
-}
-.title:hover {
-  border-color: rgb(100,100,100);
-}
-.last {
-  border-top: 0.5vw solid black;
-  margin-top: -0.5vw;
-}
-.last:hover {
-  z-index: 300;
-  position: relative;
-}*/
 .wrapper {
   width: 95%;
   margin: 0 auto;
@@ -69,11 +38,11 @@ h1{
 .empty {
   padding-top: 7%;
 }
-.justify {
-  text-align-last: justify;
-}
 .right {
   float: right;
+}
+.center {
+  text-align: center;
 }
 .marquee {
   width: 100%;
@@ -89,14 +58,16 @@ h1{
 #translate:hover {
   display: block;
   transition: all 0.3s ease;
-  transform: translateX(0.95em);
+  transform: translateX(1.95em);
 }
 #shrink:hover {
   width: 355%;
   transition: all 0.3s ease;
   transform: scale(0.8);
 }
-
+#name:hover {
+  background-color: black;
+}
 @keyframes rotate {
   0% { transform: rotate(0deg) }
   33% { transform: rotate(0deg) }
@@ -104,7 +75,6 @@ h1{
   100% { transform: rotate(360deg) }
 }
 .rotation:hover {
-  width: 50%;
   animation: rotate 1s infinite;
 }
 @keyframes blink {  
@@ -121,3 +91,6 @@ h1{
   transition: all 0.3s ease;
   visibility:visible;
 }
+// .reposition {
+//   padding-left: 5%;
+// }
